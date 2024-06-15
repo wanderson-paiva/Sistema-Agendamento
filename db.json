@@ -1,0 +1,113 @@
+{
+  "pacientes": [
+    {
+      "id": "1",
+      "nome": "Rafael Paiva",
+      "email": "rafael.paiva@gmail.com"
+    },
+    {
+      "id": "2",
+      "nome": "Murilo Ferreira",
+      "email": "murilo.ferreira@gmail.com"
+    }
+  ],
+  "medicos": [
+    {
+      "id": "1",
+      "nome": "Dr.Bruno",
+      "email": "rafael.paiva@gmail.com",
+      "especialidade": "Pediadra",
+      "crm": "17427/PE",
+      "disponibilidade": [
+        "10/06/2024",
+        "11/06/2024",
+        "12/06/2024"
+      ],
+      "horario": [
+        "15:00",
+        "16:00",
+        "17:00"
+      ]
+    }
+  ],
+  "salaAtendimentos": [
+    {
+      "id": "1",
+      "data": "11/06/2024",
+      "horario": "13:00",
+      "nomePaciente": "Rafael Paiva",
+      "emailPaciente": "rafael.paiva@gmail.com",
+      "nomeMedico": "Dr.Bruno",
+      "especialidade": "Pediadra"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "nome": "Rafael Paiva R G Melo",
+      "email": "rafael.paiva@gmail.com",
+      "senha": "teste123",
+      "tipoUsuario": "paciente"
+    },
+    {
+      "id": "2",
+      "nome": "Pedro Henrique",
+      "email": "pedro.henrique@gmail.com",
+      "senha": "teste124",
+      "tipoUsuario": "medico"
+    },
+    {
+      "id": "b9d7",
+      "name": "pri melo",
+      "email": "pri.melo@gmail.com",
+      "password": "123456",
+      "selected": "Paciente"
+    },
+    {
+      "id": "a76b",
+      "name": "wanderson paiva",
+      "email": "wanderson.paiva@gmail.com",
+      "password": "1234567",
+      "selected": "Médico"
+    },
+    {
+      "id": "de62",
+      "name": "tesate 3",
+      "email": "teste3@gmail.com",
+      "password": "123",
+      "selected": "Paciente"
+    }
+  ],
+  "auth": [
+    {
+      "id": "a30e",
+      "email": "pri.melo@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "412b",
+      "email": "wanderson.paiva@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "35a1",
+      "email": "pedro.henrique@gmail.com",
+      "password": "teste124"
+    },
+    {
+      "id": "df0e",
+      "email": "pri.melo@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "99d8",
+      "email": "pri.melo@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "3b65",
+      "email": "pedro.henrique@gmail.com",
+      "password": "teste124"
+    }
+  ]
+}
